@@ -15,7 +15,7 @@ export const Product=[
         id: 1,
         name: "Flex Sweatshirt",
         slug: "product-1",
-        cloth:"$Sweater",
+        cloth:"Sweater",
         category: "female",
         price: "$175",
         image:female1
@@ -24,7 +24,7 @@ export const Product=[
         id: 2,
         name: "Imperial Alpaca Hoodie",
         slug: "product-2",
-        cloth:"$Jackets",
+        cloth:"Jackets",
         category: "female",
         price: "$525",
         image:female2
@@ -33,7 +33,7 @@ export const Product=[
         id: 3,
         name: "Muscle Tank",
         slug: "product-3",
-        cloth:"$T Shirts",
+        cloth:"T Shirts",
         category: "female",
         price: "$75",
         image:female3
@@ -42,7 +42,7 @@ export const Product=[
         id: 4,
         name: "Cameryn Sash Tie Dress",
         slug: "product-4",
-        cloth:"$Dress",
+        cloth:"Dress",
         category: "female",
         price: "$545",
         image:female4
@@ -51,7 +51,7 @@ export const Product=[
         id: 5,
         name: "Brushed Raglan Sweatshirt",
         slug: "product-5",
-        cloth:"$Sweater",
+        cloth:"Sweater",
         category: "female",
         price: "$195",
         image:female5
@@ -69,7 +69,7 @@ export const Product=[
         id: 7,
         name: "Lite Sweatpants",
         slug: "product-7",
-        cloth:"$Pants",
+        cloth:"Pants",
         category: "female",
         price: "$150",
         image:female7
@@ -78,7 +78,7 @@ export const Product=[
         id: 8,
         name: "Pink Fleece Sweatpants",
         slug: "product-8",
-        cloth:"$Pants",
+        cloth:"Pants",
         category: "female",
         price: "$195",
         image:female8
@@ -87,7 +87,7 @@ export const Product=[
         id: 9,
         name: "Flex Sweatpants",
         slug: "product-9",
-        cloth:"$Pants",
+        cloth:"Pants",
         category: "female",
         price: "$175",
         image:female9
@@ -96,7 +96,7 @@ export const Product=[
         id: 10,
         name: "Raglan Sweatshirt",
         slug: "product-10",
-        cloth:"$Sweater",
+        cloth:"Sweater",
         category: "male",
         price: "$195",
         image:male1
@@ -105,7 +105,7 @@ export const Product=[
         id: 11,
         name: " Bomberaglan Sweatshirt",
         slug: "product-11",
-        cloth:"$Jackets",
+        cloth:"Jackets",
         category: "male",
         price: "$165",
         image:male2
@@ -114,7 +114,7 @@ export const Product=[
         id: 12,
         name: "Loose Control",
         slug: "product-12",
-        cloth:"$hirt",
+        cloth:"shirt",
         category: "kids",
         price: "$115",
         image:kid1
