@@ -12,7 +12,7 @@ const Promotion=()=>
         <div className="flex md:flex-row lg:flex-row sm::flex-col flex-col justify-center gap-5">
             <div className="flex flex-col gap-4 lg:w-2/5 md:w-2/5 sm:w-full w-full">
 
-                <div className=" flex flex-row bg-gray-300 justify-center h-60"> 
+                <div className=" flex flex-row bg-gray-300 pl-4 h-60"> 
                 <div className=" pt-8 h-44">
                     <p className="text-3xl font-bold ">GET UP<br/> TO 60%</p>
                     <p className="text-lg">For the<br/> summer<br/> season</p>
