@@ -20,7 +20,7 @@ const Body=()=>
                         <div key={index} >
                                 <Link href={`/detail/${item.id}`}>
                                 <div className="flex flex-col transition duration-300 hover:-translate-y-1 hover:scale-110"> 
-                                    <div><Image src={item.image} alt="image" width={350} height={180}/> </div>
+                                    <div><Image src={item.image} alt="image" width={350} height={180} className="w-max h-max"/> </div>
                                     <div className="mt-2">
                                         <p className="text-lg font-bold">{item.name}</p> 
                                         <p className="text-gray-500 ">{item.cloth}</p> 
