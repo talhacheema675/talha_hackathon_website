@@ -7,7 +7,7 @@ const Hero=()=>
 {
 
     return(
-        <div className="flex md:flex-row lg:flex-row sm:flex-col flex-col gap-8 pt-32 justify-center">
+        <div className="flex md:flex-row lg:flex-row sm:flex-col flex-col gap-8 pt-44 justify-center">
             <div className="flex flex-col gap-12">
                     <Button className="w-32 h-10 bg-blue-200 text-blue-800 font-bold hover:bg-blue-200">Sale 70%</Button>
                     <p className="text-5xl font-bold">An Industrial Take <br/>on Streetwear</p>

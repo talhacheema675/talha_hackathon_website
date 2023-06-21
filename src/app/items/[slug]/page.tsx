@@ -26,7 +26,7 @@ export default function Filitem({params}:{params:{slug:string}})
     }
     return(
         <div >
-            <div className="grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-1 grid-cols-1 p-32">
+            <div className="grid  lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-1 grid-cols-1 lg:p-32 md:p-32 sm:p-16 p-16">
                 {filterproduct.map((item,index)=>{
                     return(
                         <div key={index} >
