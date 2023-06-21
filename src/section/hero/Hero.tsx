@@ -21,7 +21,7 @@ const Hero=()=>
                     </div>
             </div>
 
-            <div className="lg:w-1/2 md:w-1/2 sm:w-screen w-screen h-screen m-16 rounded-full overflow-visible bg-red-100"> <Image src="/hero.webp" alt="main pic" width="200" height="96" className="w-full h-full -mt-8 pl-10"/></div>
+            <div className="lg:w-1/2 md:w-1/2 sm:w-screen w-screen h-screen flex align-middle pt-10 rounded-full overflow-visible bg-red-100"> <Image src="/hero.webp" alt="main pic" width="200" height="96" className="w-full h-full -mt-8 pl-10"/></div>
 
         </div>
     )
