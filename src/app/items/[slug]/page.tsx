@@ -32,7 +32,7 @@ export default function Filitem({params}:{params:{slug:string}})
                         <div key={index} >
                             <Link href={`/detail/${item.id}`}>
                                 <div className="flex flex-col "> 
-                                    <div><Image src={item.image} alt="image" width={250} height={120}/> </div>
+                                    <div><Image src={item.image} alt="image" width={250} height={120} className="w-max h-max"/> </div>
                                     <div className="mt-2">
                                         <p className="text-lg font-bold">{item.name}</p> 
                                         <p className="text-gray-500 ">{item.cloth}</p> 
