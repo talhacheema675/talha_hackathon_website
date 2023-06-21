@@ -4,7 +4,7 @@ import { Button } from "@/component/ui/button";
 const Sale=()=>
 {
     return(
-        <div className="bg-gray-100 p-10 m-4 mt-16">
+        <div className="bg-gray-100 lg:p-12 md:p-12 sm:p-4 p-4  mt-16">
             <div className="grid grid-cols-3 mb-24  ">
                 <p ></p>
                 <p></p>
@@ -22,7 +22,7 @@ const Sale=()=>
                         <p>This piece is ethically crafted in our small family-owned workshop in Peru with unmatched attention to detail and care. The Natural color is the actual natural color of the fiber, undyed and 100% traceable.</p>
                         <Button className="w-28 h-16 mt-12">See All Products</Button>
                     </div>
-                </div>
+                </div> 
             </div>
             
 

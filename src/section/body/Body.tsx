@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { Product } from "@/utils/product";
-import Link from "next/link";
+import Link from "next/link"; 
 
 const Body=()=>
 {
@@ -11,7 +11,7 @@ const Body=()=>
         <div >
             <div>
             <p className="text-blue-700 font-bold text-center mt-10">Products</p>
-            <p className="text-3xl font-bold text-center p-10">Check What We Have</p>
+            <p className="text-3xl font-bold text-center py-10">Check What We Have</p>
             </div>
             
             <div className="flex lg:flex-row md:flex-row sm::flex-col flex-col justify-center mx-24 ">

@@ -6,13 +6,13 @@ const Promotion=()=>
     return(
         <div>
             <div>
-                <p className="text-blue-700 text-center font-bold">PROMOTIONS</p>
-                <p className="text-3xl font-bold text-center p-10">Our Promotions Events</p>
-            </div>
-        <div className="flex md:flex-row lg:flex-row sm::flex-col flex-col justify-center gap-5 mx-16 px-2">
+                <p className="text-blue-700 text-center font-bold my-4">PROMOTIONS</p>
+                <p className="text-3xl font-bold text-center my-6">Our Promotions Events</p>
+            </div> 
+        <div className="flex md:flex-row lg:flex-row sm::flex-col flex-col justify-center gap-5">
             <div className="flex flex-col gap-4 lg:w-2/5 md:w-2/5 sm:w-full w-full">
 
-                <div className=" flex flex-row bg-gray-300 pt-4 px-8 h-60"> 
+                <div className=" flex flex-row bg-gray-300 justify-center h-60"> 
                 <div className=" pt-8 h-44">
                     <p className="text-3xl font-bold ">GET UP<br/> TO 60%</p>
                     <p className="text-lg">For the<br/> summer<br/> season</p>
@@ -20,7 +20,7 @@ const Promotion=()=>
                 <div className="h-60"><Image src="/promotion1.webp" alt="promotion pic" height={100} width={300}className="h-56" /></div>
                 </div>
                 <div className="bg-gray-900 text-white text-center h-52 py-6">
-                    <p className="text-4xl font-bold py-6 ">GET 30% Off</p>
+                    <p className="text-4xl font-bold  flex justify-evenly ">GET 30% Off</p>
                     <p>USE PROMO CODE</p>
                     <Button className="bg-gray-800">DINEWEEKENDSALE</Button>
                 </div>

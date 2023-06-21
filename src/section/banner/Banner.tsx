@@ -1,10 +1,10 @@
 
 import { Button } from "@/component/ui/button"
-import { Input } from "@/component/ui/input"
+import { Input } from "@/component/ui/input" 
 const Banner=()=>
 {
     return(
-        <div className="text-center mt-36 mb-36">
+        <div className="text-center my-36">
         <div className="text-3xl font-bold"><p>Subscribe Our Newsletter</p></div>
         <div><p className=" text-8xl font-extrabold text-gray-200">Newsletter</p></div>
         <div className="-mt-16 text-lg"><p>Get the latest information and promo offers directly</p></div>
