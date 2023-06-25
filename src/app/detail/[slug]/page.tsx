@@ -13,8 +13,8 @@ const Details=({params}:{params:{slug:number}})=>
                     <div key={index} >
                             <div className="flex lg:flex-row md:flex-row sm:flex-col flex-col gap-8 flex-wrap "> 
                               <div> <Image src={item.image} alt="image" width="100" height={200} className="rounded-2xl lg:visible md:visible sm:invisible invisible"/></div>
-                              <div className="lg:w-1/2 md:w-1/2 sm:w-full w-full h-screen"> <Image src={item.image} alt="image" width="500" height={1200} className="rounded-2xl w-full h-full"/></div>
-                              <div className="pt-10 flex flex-col justify-center">
+                              <div className="h-max "> <Image src={item.image} alt="image" width="500" height="1200" className="rounded-2xl h-full"/></div>
+                              <div className="lg:pt-10 md:pt-10 sm:pt-20 pt-20 flex flex-col justify-center">
                                 <p className="text-3xl "> {item.name}</p>
                                 <p className="text-gray-500 text-2xl font-bold mb-10">{item.cloth}</p>
                                 <p className="text-lg font-bold mb-">select size</p>
