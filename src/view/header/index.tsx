@@ -2,9 +2,7 @@
 import React from "react"
 import Image from "next/image"
 import Link from "next/link"
-import {NavigationMenu,NavigationMenuItem,NavigationMenuList,NavigationMenuTrigger,
-    NavigationMenuViewport,
-  } from "@/component/ui/navigation-menu"
+import {NavigationMenu,NavigationMenuItem,NavigationMenuList,} from "@/component/ui/navigation-menu"
 import { SearchIcon, ShoppingCart } from "lucide-react"
 import { Input } from "@/component/ui/input"
 

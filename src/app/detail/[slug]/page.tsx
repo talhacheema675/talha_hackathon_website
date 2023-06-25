@@ -7,14 +7,16 @@ const Details=({params}:{params:{slug:number}})=>
   const exactproduct=Product.filter((Product)=>Product.id==params.slug);
   return(
     <div >
-        <div className="p-36">
+        <div className="p-24">
             {exactproduct.map((item,index)=>{
                 return(
                     <div key={index} >
-                            <div className="flex lg:flex-row md:flex-row sm:flex-col flex-col gap-8 flex-wrap "> 
-                              <div> <Image src={item.image} alt="image" width="100" height={200} className="rounded-2xl lg:visible md:visible sm:invisible invisible"/></div>
-                              <div className="h-max "> <Image src={item.image} alt="image" width="500" height="1200" className="rounded-2xl h-full"/></div>
-                              <div className="lg:pt-10 md:pt-10 sm:pt-20 pt-20 flex flex-col justify-center">
+                            <div className="flex lg:flex-row md:flex-row flex-col  flex-wrap "> 
+                            <div className="flex flex-row lg:w-2/3 md:w-2/3 w-full gap-2 m-6 md:px-8">
+                              <div className="h-max w-max "> <Image src={item.image} alt="image" width="100" height={200} className="rounded-2xl  "/></div>
+                              <div className=" w-full"> <Image src={item.image} alt="image" width="500" height="1200" className="rounded-2xl w-full h-full"/></div>
+                              </div>
+                              <div className="flex flex-col pt-16">
                                 <p className="text-3xl "> {item.name}</p>
                                 <p className="text-gray-500 text-2xl font-bold mb-10">{item.cloth}</p>
                                 <p className="text-lg font-bold mb-">select size</p>
