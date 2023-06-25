@@ -6,7 +6,7 @@ import Sale from '@/section/sale/Sale'
 import Banner from '@/section/banner/Banner'
 export default function Home() {
   return (
-    <div>
+    <div className='m-2'>
       <Hero/>
       <Promotion/>
       <Body/>
