@@ -25,14 +25,14 @@ const Promotion=()=>
                     <Button className="bg-gray-800">DINEWEEKENDSALE</Button>
                 </div>
             </div>
-            <div className="flex flex-col-reverse  bg-red-100 h-max w-max pt-6 px-4">
+            <div className="flex flex-col-reverse  bg-red-100 md:h-max lg:h-max lg:w-max md:w-max w-full pt-6 px-4">
                 <div ><Image src="/promotion2.webp" alt="promotion pic" height={100} width={300}className="justify-center" /></div>
                 <div className="text-lg pl-4">
                     <p className=" ">Flex Sweatshirt</p>
                     <p><del>$100.00</del><b className="font-bold pl-2"> $75.00</b></p>
                 </div>
             </div>
-            <div className="flex flex-col-reverse bg-gray-300 h-max w-max pt-6 px-4" >
+            <div className="flex flex-col-reverse bg-gray-300 md:h-max md:w-max lg:h-max lg:w-max w-full pt-6 px-4 " >
             <div ><Image src="/promotion3.webp" alt="promotion pic" height={100} width={300} className="justify-center"/></div>
                 <div className="text-lg pl-4 ">
                     <p>Flex Push Button Bomber</p>

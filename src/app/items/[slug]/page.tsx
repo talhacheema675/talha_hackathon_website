@@ -26,13 +26,13 @@ export default function Filitem({params}:{params:{slug:string}})
     }
     return(
         <div >
-            <div className="grid  lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-1 grid-cols-1 lg:p-32 md:p-32 sm:p-16 p-16">
+            <div className="grid  lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-1 grid-cols-1 gap-4 lg:p-32 md:p-32  pt-24 p-12">
                 {filterproduct.map((item,index)=>{
                     return(
                         <div key={index} >
                             <Link href={`/detail/${item.id}`}>
                                 <div className="flex flex-col "> 
-                                    <div><Image src={item.image} alt="image" width={250} height={120} className="w-max h-max"/> </div>
+                                    <div className="w-full "><Image src={item.image} alt="image" width={250} height={120} className="w-full h-max"/> </div>
                                     <div className="mt-2">
                                         <p className="text-lg font-bold">{item.name}</p> 
                                         <p className="text-gray-500 ">{item.cloth}</p> 
