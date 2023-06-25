@@ -11,8 +11,8 @@ const Details=({params}:{params:{slug:number}})=>
             {exactproduct.map((item,index)=>{
                 return(
                     <div key={index} >
-                            <div className="flex flex-row gap-8 flex-wrap"> 
-                              <div> <Image src={item.image} alt="image" width="100" height={200} className="rounded-2xl"/></div>
+                            <div className="flex lg:flex-row md:flex-row sm:flex-col flex-col gap-8 flex-wrap "> 
+                              <div> <Image src={item.image} alt="image" width="100" height={200} className="rounded-2xl lg:visible md:visible sm:invisible invisible"/></div>
                               <div> <Image src={item.image} alt="image" width="500" height={1200} className="rounded-2xl"/></div>
                               <div className="pt-10">
                                 <p className="text-3xl "> {item.name}</p>
