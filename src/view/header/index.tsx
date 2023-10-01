@@ -25,12 +25,12 @@ import { Button } from "@/component/ui/button"
                             </NavigationMenu>
                     </div>
                 </div>
-                <div className={`flex flex-col md:flex-row mt-1 ${showdata%2!=0 ?"hidden md:flex":""} `}>
+                <div className={`flex flex-row mt-1 ${showdata%2!=0 ?"hidden md:flex":""} `}>
                     <div className="flex flex-row my-3 border border-solid rounded-lg text-xs pr-8 h-7 "> 
                         <SearchIcon className="w-4 h-4 mt-1 mr-2" />
                         <input type="text" placeholder="What are you looking for?"/>
                     </div>
-                    <div className="mt-3 md:pl-3 pl-20"><ShoppingCart  /></div>
+                    <div className="mt-3 pl-3 "><ShoppingCart  /></div>
                 </div>
                <Button onClick={()=>getdata(showdata+1)} className="m-4 mt-7 md:hidden fixed top-1 right-2 "><MenuIcon/></Button>
 
