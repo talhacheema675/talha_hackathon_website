@@ -21,12 +21,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-       <Context>
+       
         <Header/>
         {children}
        
         <Footer/>
-        </Context>
+      
         </body>
     </html>
   )
