@@ -21,7 +21,7 @@ const Details= ({params}:{params:{slug:number}})=>
       getabc(exactproduct)
     };
     gettingdata()
-  },[params.slug]);
+  },[params.slug]); 
   return(
     <div >
         <div className="lg:p-24 md:p-24 p-6 pt-24">
