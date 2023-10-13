@@ -4,6 +4,7 @@ import Promotion from '@/section/promotion/Promotion'
 import Body from '@/section/body/Body'
 import Sale from '@/section/sale/Sale'
 import Banner from '@/section/banner/Banner'
+import { useState } from 'react'
 export default function Home() {
   return (
     <div className='m-2'>

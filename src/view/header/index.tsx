@@ -1,5 +1,6 @@
 "use client"
-import React, { useState } from "react"
+import React, { useState,useContext } from "react"
+import Cartval from '@/lib/ucontext'
 import Image from "next/image"
 import Link from "next/link"
 import {NavigationMenu,NavigationMenuItem,NavigationMenuList,} from "@/component/ui/navigation-menu"
@@ -10,7 +11,9 @@ import { Button } from "@/component/ui/button"
   const Header=()=>
   {
     const [showdata,getdata]=useState(1)
+    const cval=useContext(Cartval)
     return(
+        
         <nav className="flex flex-row">
             <div className="flex flex-col md:flex-row lg:flex-row justify-between px-8 md:w-full w-full h-max text-center bg-white fixed">
                 <div  className="md:py-4 py-8 mt-1"> <Link href="#"><Image src="/logo.webp" alt="Logo Image" width={130} height={130} /></Link></div>
@@ -30,7 +33,7 @@ import { Button } from "@/component/ui/button"
                         <SearchIcon className="w-4 h-4 mt-1 mr-2" />
                         <input type="text" placeholder="What are you looking for?"/>
                     </div>
-                    <div className="mt-3 pl-3 "><ShoppingCart  /></div>
+                    <div className="mt-3 pl-3 "><ShoppingCart  /><h1 className="rounded-full w-4 h-4 bg-red-500 text-center font-bold text-xs -my-8 text-white ">{cval}</h1></div>
                 </div>
                <Button onClick={()=>getdata(showdata+1)} className="m-4 mt-7 md:hidden fixed top-1 right-2 "><MenuIcon/></Button>
 
