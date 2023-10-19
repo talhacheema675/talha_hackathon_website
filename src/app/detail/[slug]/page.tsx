@@ -6,27 +6,27 @@ import { useState,useContext,useEffect } from "react";
 import Cartval, { Context } from "@/lib/ucontext";
  import { urlForImage } from "../../../../sanity/lib/image";
  import getdaata from "@/lib/getdata";
-const Details= async ({params}:{params:{slug:number}})=>
+const Details= ({params}:{params:{slug:number}})=>
 {
 
   const [getvalue,setvalue]= useState(1)
   let [scart,getcart]=useState(0)
-  
+  let [setabc,getabc]= useState([]);
  
-  /*useEffect(()=>
-  {let [setabc,getabc]= useState([]);
+  useEffect(()=>
+  {
     const gettingdata= async()=>
     {
       let exactproduct= await getdaata(params.slug,1);
       getabc(exactproduct)
     };
     gettingdata()
-  },[params.slug]); */
-  let exactproduct= await getdaata(params.slug,1);
+  },[params.slug]); 
+ 
   return(
     <div >
         <div className="lg:p-24 md:p-24 p-6 pt-24">
-            {exactproduct.map((item:any,index:any)=>{
+            {setabc.map((item:any,index:any)=>{
                 return(
                     <div key={index} >
                             <div className="flex lg:flex-row md:flex-row flex-col "> 
