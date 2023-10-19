@@ -1,4 +1,5 @@
 import client from "./sanityClient";
+import React from "react";
  const getdaata=async (str?:any,con?:number) => {
     if(con==0)
         {
